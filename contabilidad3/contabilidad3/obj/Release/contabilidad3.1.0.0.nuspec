@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>contabilidad3</id>
+    <version>1.0.0</version>
+    <authors>contabilidad3</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="EPPlus" version="7.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Lordv\Desktop\contabilidad3\contabilidad3\bin\Release\net6.0-windows\contabilidad3.runtimeconfig.json" target="lib\net6.0-windows7.0\contabilidad3.runtimeconfig.json" />
+    <file src="C:\Users\Lordv\Desktop\contabilidad3\contabilidad3\bin\Release\net6.0-windows\contabilidad3.dll" target="lib\net6.0-windows7.0\contabilidad3.dll" />
+  </files>
+</package>
